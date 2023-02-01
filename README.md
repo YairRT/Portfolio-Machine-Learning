@@ -1,6 +1,11 @@
 # Portfolio-Machine-Learning
 
-Here are various projects that I have developed involving Machine Learning .
+Here are various projects that I have developed involving Machine Learning 
+
+* "MalariaDetectionSystem.ipynb" is a project developed as a result of a course carried out with the Massachusetts Institute of Technology. The main objective here was, to determine, given a certain image of a cell, whether it was parasitized with malaria or not. In total there were 24,958 train and 2,600 test pictures. Image processing algorithms were used to achieve this task. In first place, the data was prepared and loaded for an exploratory analysis. The images were normalized and the balance in the data was checked so that no bias was introduced into   the system. After that, statistical scenarios were drawn from the data such as the mean and how do cells look like for infected and uninfected cases. Then some image algorithms were tested to see how did the images interact with them (such as Gaussian Blurring). Finally clasification models were created to make a system that could determine if a cell was uninfected or not. Convolutional Neural Networks (CNN) were created for this purpose.
+
+4 different models were created to achive this project's objective using CNNs which had different hyperparameters and accuracy results. From this, one final model was selectec which had 98.26% accuracy and 14 hidden layers, which resulted in more than 1,000,000 parameters. From this, it was concluded that the model could be further improved prioritizing certain failures (false negatives are critical in medical cases). Also, it was hypothesised that more train and test images could lead to better results. 
+
 
 * We have "MarketingCampaign_bank.ipynb". The project's main objective was to knwo how to connect and interact with an SQL database using python. The data corresponds   to a bank's   marketing campaign results. Here demographic and financial values are substracted from a group of people, along with whether the marketing campaign       was successful or   not.
 
